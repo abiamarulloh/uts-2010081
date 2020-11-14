@@ -13,50 +13,31 @@
                 box-shadow: -4px -1px 23px 0px rgba(0,0,0,0.75);
             }
 
-            .head-table {
-                border-bottom:0;
-            }
-
-            .body-table td {
-                border-top: 0px;
-                border-right: 0px;
+            select {
+                width: 100%;
             }
     </style>
 </head>
 <body>
-    <table border=1 cellpadding="10px">
+    <table   cellpadding="10px">
+        <tr >
+                <td>
+                    <label for="">KAMPUS: </label>
+                </td>
+                <td>
+                    <input type="text" placeholder="STMIK ANTAR BANGSA">
+                </td>
+        </tr>   
         <tr>
-           <td colspan="4" align="center" class="head-table">My Profile</td>
+            <td>
+                <label for="">PRODI: </label>
+            </td>
+            <td>
+                <select name="" id="">
+                    <option value="">Teknik Informatika</option>
+                </select>
+            </td>
         </tr>
-        <tr class="body-table">
-            <td>
-<pre>
-    Nama 
-    Kelas
-    Prodi
-    Hobby
-</pre>
-            </td>
-            <td>
-<pre>
-    : 
-    :
-    :
-    :
-</pre>
-            </td>
-            <td>
-<pre>
-    Abi amarulloh
-    1.1B
-    Teknik Informatika
-    Ngoding 
-</pre>
-            </td>
-            <td>
-                <img src="https://avatars2.githubusercontent.com/u/32256117?s=400&u=27c754894ee884e3d9bbd22e354a3621a888afdd&v=4" alt="Foto abi" width="100px">
-            </td>
-        </tr> 
     </table>
 </body>
 </html>
